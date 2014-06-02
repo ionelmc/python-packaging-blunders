@@ -1,4 +1,4 @@
-#!/bin/bash -eE
+#!/bin/bash -eEx
 
 rm -rf .ve
 virtualenv .ve
