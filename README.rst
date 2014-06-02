@@ -42,6 +42,6 @@ Perfect - we don't have junk on the import path.
 
     error: no commands supplied
 
-This is bad, setuptools just added the root of the project on ``sys.path```. 
-All the junk that never goes in ``site-packages`` (when you install the 
+This is bad, setuptools just added the root of the project on ``sys.path``. 
+All the junk that would never go in ``site-packages`` (when you install the 
 distribution) is now importable ...
